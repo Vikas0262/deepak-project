@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Listings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .rooms {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .room-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .room-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .room-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .room-content {
+            padding: 15px;
+        }
+
+        .room-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .room-details {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .room-price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .book-btn {
+            display: block;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .book-btn:hover {
+            background-color: #45a049;
+        }
+
+        .amenities {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .rooms {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .room-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>This page under maintaince</p>
+    
+    <footer>
+        &copy; 2025 Room Listings. All rights reserved.
+    </footer> 
+</body>
+</html>
